@@ -68,6 +68,11 @@ main {
     padding: 0 5%;
 }
 
+main h1,
+main p {
+    color: #333;
+}
+
 main article,
 main section {
     padding-top: 10vh;
@@ -75,7 +80,6 @@ main section {
 
 main article h1 {
     text-align: center;
-    color: #333;
     text-transform: uppercase;
     font-family: "cinzel";
     font-size: 1.1em;
@@ -90,7 +94,24 @@ main article p {
 
 main section img {
     width: 30%;
-    padding: 0 3% 6vh 0;
+    padding: 0 3% 0 0;
+}
+
+main section img.gab {
+    padding-top: 6vh;
+}
+
+main article p.align_left {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.sold_out {
+    color: red;
+}
+
+.available {
+    color: green;
 }
 
 /* ######################################
