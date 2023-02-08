@@ -68,21 +68,30 @@ main {
     padding: 0 5%;
 }
 
+main article,
+main section {
+    padding-top: 10vh;
+}
+
 main article h1 {
     text-align: center;
     color: #333;
     text-transform: uppercase;
     font-family: "cinzel";
     font-size: 1.1em;
-    padding-top: 10vh;
     padding-bottom: 3vh;
 }
 
-main article p{
+main article p {
     text-align: center;
     font-family: poppins;
     font-size: 0.8em;
-} 
+}
+
+main section img {
+    width: 30%;
+    padding: 0 3% 6vh 0;
+}
 
 /* ######################################
                 FOOTER
