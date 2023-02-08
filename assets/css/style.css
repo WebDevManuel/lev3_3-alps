@@ -28,8 +28,12 @@ color: #333;
 /* ######################################
                 HEADER
 #######################################*/
+body {
+    /* width:1090px; */
+}
+
 header h1 {
-    padding: 10px 8%;
+    padding: 10px 5%;
     font-size: 1.5em;
     text-transform: uppercase;
     color: #999;
@@ -45,6 +49,7 @@ header section div {
     width: 300px;
     margin: 0 auto;
     padding: 150px 0;
+    text-align: center;
 }
 
 header section h2 {
@@ -59,8 +64,25 @@ header section h2 {
                 MAIN
 #######################################*/
 
+main {
+    padding: 0 5%;
+}
 
+main article h1 {
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    font-family: "cinzel";
+    font-size: 1.1em;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+}
 
+main article p{
+    text-align: center;
+    font-family: poppins;
+    font-size: 0.8em;
+} 
 
 /* ######################################
                 FOOTER
