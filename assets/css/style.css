@@ -76,6 +76,7 @@ main p {
 main article,
 main section {
     padding-top: 10vh;
+    text-align: center;
 }
 
 main article h1 {
@@ -94,11 +95,15 @@ main article p {
 
 main section img {
     width: 30%;
-    padding: 0 3% 0 0;
+    padding: 0 4% 0 0;
 }
 
-main section img.gab {
+main section img.gab_line {
     padding-top: 6vh;
+}
+
+main section img.nopadding_right {
+    padding-right: 0;
 }
 
 main article p.align_left {
@@ -106,11 +111,11 @@ main article p.align_left {
     padding-bottom: 10px;
 }
 
-.sold_out {
+main article p span.sold_out {
     color: red;
 }
 
-.available {
+main article p span.available {
     color: green;
 }
 
