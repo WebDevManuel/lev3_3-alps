@@ -7,6 +7,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: cinzel;
+    src: url("../fonts/Cinzel/static/Cinzel-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
 /* 
 Font: Cinzel, poppins.
 border: #ccc:
@@ -18,9 +28,32 @@ color: #333;
 /* ######################################
                 HEADER
 #######################################*/
+header h1 {
+    padding: 10px 8%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #999;
+}
 
+header section {
+    background-image: url("../img/background_home.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+header section div {
+    width: 300px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
 
+header section h2 {
+    font-family: cinzel;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3em;
+}
 
 /* ######################################
                 MAIN
