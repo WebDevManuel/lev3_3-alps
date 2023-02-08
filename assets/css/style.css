@@ -28,9 +28,6 @@ color: #333;
 /* ######################################
                 HEADER
 #######################################*/
-body {
-    /* width:1090px; */
-}
 
 header h1 {
     padding: 10px 5%;
@@ -69,7 +66,8 @@ main {
 }
 
 main h1,
-main p {
+main p,
+footer p {
     color: #333;
 }
 
@@ -122,3 +120,24 @@ main article p span.available {
 /* ######################################
                 FOOTER
 #######################################*/
+
+footer {
+    border-top: 1px solid #ccc;
+    margin-top: 10vh;
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer h2 {
+    font-family: cinzel;
+    font-weight: lighter;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    display: inline;
+}
+
+footer img {
+    width: 30px;
+    padding: 0 15px;
+    vertical-align: bottom;
+}
