@@ -104,14 +104,31 @@ main section img.nopadding_right {
     padding-right: 0;
 }
 
-main article p.align_left {
-    text-align: left;
-    padding-bottom: 10px;
+main article ul {
+    list-style: none;
 }
 
-main article p span.sold_out {
+main article ul li {
+    text-align: left;
+    padding-bottom: 7px;
+}
+
+main article ul li.sold_out::after {
+    content: " - SOLD OUT";
     color: red;
 }
+
+main article ul li.sold_out:nth-of-type(4)::after {
+    content: " - ONLY 4 SPOT AVAILABLE";
+    color: red;
+}
+
+main article ul li.available::after {
+    content: " - AVAILABLE";
+    color: green;
+}
+
+main article p span.sold_out {}
 
 main article p span.available {
     color: green;
